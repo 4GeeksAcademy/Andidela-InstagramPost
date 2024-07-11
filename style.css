@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.header {
+    background-color: white;
+    display: flex;
+    padding-left: 10px;
+    height: 65px;
+    align-items: center;
+}
+.post {
+    width: 400px;
+    font-family: roboto;
+    position: relative;
+    top: 50px;
+}
+.body {
+    background-color: white;
+    > p {
+        padding-left: 10px;
+        margin: 5px;
+        font-size: small;
+        padding-top: 5px;
+    }
+}
+.icons {
+    display: flex;
+    font-size: x-large;
+    padding-left: 10px;
+    gap: 10px;
+    height: 40px;
+    align-items: center;
+    padding-top: 5px;
+}
+.rigo {
+    margin-left: 10px;
+    padding-right: 68%;
+}
+#username {
+    margin-top: 0%;
+}
+#top {
+    margin-bottom: 0%;
+}
+h3 {
+    font-size: x-large;
+}
+.img {
+    margin: 0px;
+}
+#save {
+    padding-left: 65%;
+}
+.writing {
+    padding: 10px;
+    margin: 5px;
+}
